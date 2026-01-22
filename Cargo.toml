@@ -4,7 +4,7 @@ version = "1.0.0"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 description = "A crate that allows programmers to change the style or colour of their strings"
-repository = "git@github.com:NikolasNikshiqi/simple_colour.git"
+repository = "https://github.com/NikolasNikshiqi/simple_colour"
 keywords = ["ansi", "terminal", "color", "colour", "styling", "truecolour", "truecolor", "terminalcolor", "bold", "italic"]
 categories = ["command-line-interface"]
 

@@ -9,12 +9,16 @@ fn main() {
 
     println!(
         "{}",
-        "Hi my name is Nikolas Nikshiqi".bold().bg_blue().truecolour(192)
+        "Hi my name is Nikolas Nikshiqi"
+            .bold()
+            .bg_blue()
+            .truecolour(192)
     );
     println!(
         "{}",
         "Hi my name is Nikolas Nikshiqi"
             .italic()
-            .truecolour_rgb(0, 170, 170)
+            .bg_truecolour_rgb(0, 170, 170)
+            .bright_red()
     );
 }

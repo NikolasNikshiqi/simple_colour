@@ -1,5 +1,5 @@
-//! # colour
-//! `colour` is a collection of functions providing a more conveniet
+//! # simple_colour
+//! `simple_colour` is a collection of functions providing a more conveniet
 //! process to change output styles/colouring in the terminal
 //!
 //! It accepts both &str and String

@@ -8,8 +8,8 @@
 //! ## Usage
 //!
 //! Add the trait to your scope:
-//! ```rust
-//! use colour::Colour;
+//! ```
+//! use simple_colour::Colour;
 //!
 //! println!("{}", "Hello World Italic".italic()); //Style
 //! println!("{}", "Hello World Red".red()); //Colour
@@ -85,14 +85,14 @@ pub trait Colour {
 
     /// Sets the text style to **bold**.
     /// ```
-    /// # use colour::Colour;
+    /// # use simple_colour::Colour;
     /// println!("{}", "Bold Text".bold());
     /// ```
     fn bold(&self) -> String;
 
     /// Sets the text style to *italic*.
     /// ```
-    /// # use colour::Colour;
+    /// # use simple_colour::Colour;
     /// println!("{}", "Italic Text".italic());
     /// ```
     fn italic(&self) -> String;
@@ -216,35 +216,35 @@ pub trait Colour {
 
     /// Applies a custom colour using RGB values.
     /// ```
-    /// # use colour::Colour;
+    /// # use simple_colour::Colour;
     /// "Custom".truecolour_rgb(100, 200, 50);
     /// ```
     fn truecolour_rgb(&self, r: u8, g: u8, b: u8) -> String;
 
     /// Applies a custom colour using an 8-bit ANSI colour code (0-255).
     /// ```
-    /// # use colour::Colour;
+    /// # use simple_colour::Colour;
     /// "ANSI 150".truecolour(150);
     /// ```
     fn truecolour(&self, code: u8) -> String;
 
     /// Applies a custom background-colour using RGB values.
     /// ```
-    /// # use colour::Colour;
+    /// # use simple_colour::Colour;
     /// "Custom".bg_truecolour_rgb(100, 200, 50);
     /// ```
     fn bg_truecolour_rgb(&self, r: u8, g: u8, b: u8) -> String;
 
     /// Applies a custom background-colour using an 8-bit ANSI colour code (0-255).
     /// ```
-    /// # use colour::Colour;
+    /// # use simple_colour::Colour;
     /// "ANSI 150".bg_truecolour(150);
     /// ```
     fn bg_truecolour(&self, code: u8) -> String;
 
     /// Cycles through a spectrum of colours for each character in the string.
     /// ```
-    /// # use colour::Colour;
+    /// # use simple_colour::Colour;
     /// println!("{}", "Rainbow!".rainbow());
     /// ```
     fn rainbow(&self) -> String;

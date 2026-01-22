@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "colour"
+name = "simple_colour"
 version = "1.0.0"

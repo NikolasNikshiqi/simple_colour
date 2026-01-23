@@ -16,7 +16,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-simple_colour = "1.0.3"
+simple_colour = "1.0.4"
 
 ```
 

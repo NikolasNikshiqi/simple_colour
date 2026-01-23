@@ -1,8 +1,9 @@
 [package]
 name = "simple_colour"
-version = "1.0.3"
-edition = "2024"
+version = "1.0.4"
+edition = "2021"
 license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/simple_colour"
 description = "A crate that allows programmers to change the style or colour of their strings"
 repository = "https://github.com/NikolasNikshiqi/simple_colour"
 keywords = ["ansi", "terminal", "color", "colour", "styling"]

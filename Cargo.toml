@@ -6,6 +6,6 @@ license = "MIT OR Apache-2.0"
 description = "A crate that allows programmers to change the style or colour of their strings"
 repository = "https://github.com/NikolasNikshiqi/simple_colour"
 keywords = ["ansi", "terminal", "color", "colour", "styling"]
-categories = ["command-line-interface", "ansi"]
+categories = ["command-line-interface"]
 
 [dependencies]

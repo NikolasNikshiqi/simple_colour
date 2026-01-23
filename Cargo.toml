@@ -2,11 +2,17 @@
 name = "simple_colour"
 version = "1.0.4"
 edition = "2021"
+rust-version = "1.56.0"
 license = "MIT OR Apache-2.0"
 documentation = "https://docs.rs/simple_colour"
 description = "A crate that allows programmers to change the style or colour of their strings"
 repository = "https://github.com/NikolasNikshiqi/simple_colour"
 keywords = ["ansi", "terminal", "color", "colour", "styling"]
 categories = ["command-line-interface"]
+exclude = [
+    ".github/",
+    ".gitignore",
+    "Cargo.lock",
+]
 
 [dependencies]
